@@ -1,4 +1,4 @@
-import App from "../App";
+import App from "../components/App/App";
 
 /**
  * @type {import("react-router-dom").RouteObject[]} routes
