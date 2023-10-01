@@ -76,4 +76,6 @@ const quotesSlice = createSlice({
 
 export const { saveQuotes } = quotesSlice.actions;
 
+export const quotesSelector = (state) => state.quotes;
+
 export default quotesSlice.reducer;
