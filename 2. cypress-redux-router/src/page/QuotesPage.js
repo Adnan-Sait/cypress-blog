@@ -12,13 +12,13 @@ function QuotesPage() {
     <div>
       {quotes.map((item) => {
         return (
-          <li>
+          <li key={item.id}>
             <p>{item.quote}</p>
             <p>{item.author}</p>
 
             <div>
               {item.category.map((category) => {
-                return <p>{category}</p>;
+                return <p key={category}>{category}</p>;
               })}
             </div>
           </li>
