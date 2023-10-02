@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --app-color-marian-blue: hsla(214, 97%, 27%, 1);
+  --app-color-dodger-blue: hsla(205, 94%, 52%, 1);
+  --app-color-white: hsla(0, 0%, 100%, 1);
+  --app-color-text-black: hsla(0, 0%, 0%, 0.87);
+
+  --app-sizes-size-10: 1rem;
+  --app-sizes-size-12: 1.2rem;
+  --app-sizes-size-14: 1.4rem;
+  --app-sizes-size-16: 1.6rem;
+  --app-sizes-size-18: 1.8rem;
+  --app-sizes-size-20: 2rem;
+  --app-sizes-size-24: 2.4rem;
+  --app-sizes-size-30: 3rem;
+  --app-sizes-size-36: 3.6rem;
+  --app-sizes-size-44: 4.4rem;
+  --app-sizes-size-52: 5.2rem;
+  --app-sizes-size-62: 6.2rem;
+  --app-sizes-size-74: 7.4rem;
+  --app-sizes-size-86: 8.6rem;
+  --app-sizes-size-98: 9.8rem;
+
+  --app-weight-normal: 400;
+  --app-weight-medium: 500;
+  --app-weight-semibold: 600;
+  --app-weight-bold: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Sarabun", "Roboto", sans-serif;
+  color: var(--app-color-text-black);
 }
