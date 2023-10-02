@@ -5,9 +5,15 @@
   padding: var(--app-sizes-size-10) var(--app-sizes-size-5);
 }
 
-.navbar {
-  margin-left: auto;
+.headerContainer {
   display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -27,4 +33,22 @@
   &:global.active {
     border-color: var(--app-color-white);
   }
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  color: var(--app-color-white);
+}
+
+.reactLogo {
+  width: 40px;
+  fill: var(--app-color-white);
+}
+
+.logoText {
+  white-space: nowrap;
+  font-size: var(--app-sizes-size-24);
 }
