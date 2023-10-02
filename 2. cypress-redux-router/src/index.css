@@ -4,6 +4,9 @@
   --app-color-white: hsla(0, 0%, 100%, 1);
   --app-color-text-black: hsla(0, 0%, 0%, 0.87);
 
+  --app-color-shadow-blue-outline: hsla(205, 94%, 52%, 0.5);
+
+  --app-sizes-size-5: 0.5rem;
   --app-sizes-size-10: 1rem;
   --app-sizes-size-12: 1.2rem;
   --app-sizes-size-14: 1.4rem;
@@ -30,6 +33,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem var(--app-color-shadow-blue-outline);
 }
 
 html {
