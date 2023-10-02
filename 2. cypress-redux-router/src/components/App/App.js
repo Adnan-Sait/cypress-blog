@@ -1,16 +1,14 @@
-import logo from "../../assets/logo.svg";
-import "./App.css";
+import { ReactComponent as ReactLogo } from "../../assets/logo.svg";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className={styles.app}>
+      <header className={styles.appHeader}>
+        <ReactLogo className={styles.appLogo} aria-hidden />
+        <p>Edit src/App.js and save to reload.</p>
         <a
-          className="App-link"
+          className={styles.appLink}
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
