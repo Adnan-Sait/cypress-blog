@@ -1,5 +1,5 @@
 /**
- * @typedef     {Object}    QuotesSource
+ * @typedef     {Object}    Quotes
  * @property    {number}    id
  * @property    {string}    quote
  * @property    {string[]}  category
@@ -8,7 +8,7 @@
 
 /**
  * @typedef     {Object}                        QuotesSlice
- * @property    {QuotesSource[]}                quotes
+ * @property    {Quotes[]}                      quotes
  * @property    {Object.<string, number[]>}     authors
  * @property    {Object.<string, number[]>}     categories
  */

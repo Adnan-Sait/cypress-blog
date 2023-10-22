@@ -1,10 +1,16 @@
 :root {
   --app-color-marian-blue: hsla(214, 97%, 27%, 1);
+  --app-color-marian-blue-tint-7: hsl(213, 36%, 78%);
   --app-color-dodger-blue: hsla(205, 94%, 52%, 1);
   --app-color-white: hsla(0, 0%, 100%, 1);
   --app-color-text-black: hsla(0, 0%, 0%, 0.87);
 
+  --app-color-neutral-5: hsl(0, 0%, 32%);
+
+  --app-shadow-default-dimensions: 0 0 0 0.5rem;
+  --app-shadow-spread-dimensions: 0 0 0.2rem 0.5rem;
   --app-color-shadow-blue-outline: hsla(205, 94%, 52%, 0.5);
+  --app-color-shadow-quotes-outline: hsla(214, 97%, 27%, 0.5);
 
   --app-sizes-size-5: 0.5rem;
   --app-sizes-size-10: 1rem;

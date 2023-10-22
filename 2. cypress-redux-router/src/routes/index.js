@@ -1,6 +1,6 @@
 import App from "../components/App/App";
 import IndexPage from "../page/IndexPage";
-import QuotesPage from "../page/QuotesPage";
+import QuotesPage from "../page/QuotesPage/QuotesPage";
 
 /**
  * @type {import("react-router-dom").RouteObject[]} routes
